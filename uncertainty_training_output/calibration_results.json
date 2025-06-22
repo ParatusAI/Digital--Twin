@@ -1,0 +1,95 @@
+{
+  "bayesian": {
+    "uncertainty_accuracy_correlation": 0.015244432478824902,
+    "calibration_curve": [
+      {
+        "uncertainty_range": [
+          0.1,
+          0.2
+        ],
+        "avg_uncertainty": "0.183409",
+        "accuracy": 0.3979591836734694,
+        "count": "98"
+      },
+      {
+        "uncertainty_range": [
+          0.2,
+          0.30000000000000004
+        ],
+        "avg_uncertainty": "0.23192574",
+        "accuracy": 0.38666666666666666,
+        "count": "300"
+      },
+      {
+        "uncertainty_range": [
+          0.30000000000000004,
+          0.4
+        ],
+        "avg_uncertainty": "0.30251867",
+        "accuracy": 1.0,
+        "count": "2"
+      }
+    ],
+    "mean_uncertainty": "0.22039211",
+    "uncertainty_std": "0.029504115"
+  },
+  "mcdropout": {
+    "uncertainty_accuracy_correlation": 0.07637400296985582,
+    "calibration_curve": [
+      {
+        "uncertainty_range": [
+          0.0,
+          0.1
+        ],
+        "avg_uncertainty": "0.06956201",
+        "accuracy": 0.425,
+        "count": "280"
+      },
+      {
+        "uncertainty_range": [
+          0.1,
+          0.2
+        ],
+        "avg_uncertainty": "0.1381445",
+        "accuracy": 0.4830508474576271,
+        "count": "118"
+      },
+      {
+        "uncertainty_range": [
+          0.2,
+          0.30000000000000004
+        ],
+        "avg_uncertainty": "0.20188463",
+        "accuracy": 0.5,
+        "count": "2"
+      }
+    ],
+    "mean_uncertainty": "0.09045546",
+    "uncertainty_std": "0.037085287"
+  },
+  "ensemble": {
+    "uncertainty_accuracy_correlation": -0.0038338337977522345,
+    "calibration_curve": [
+      {
+        "uncertainty_range": [
+          0.0,
+          0.1
+        ],
+        "avg_uncertainty": "0.04563011",
+        "accuracy": 0.45202020202020204,
+        "count": "396"
+      },
+      {
+        "uncertainty_range": [
+          0.1,
+          0.2
+        ],
+        "avg_uncertainty": "0.10504827",
+        "accuracy": 0.25,
+        "count": "4"
+      }
+    ],
+    "mean_uncertainty": "0.046224285",
+    "uncertainty_std": "0.016838249"
+  }
+}

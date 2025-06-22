@@ -1,0 +1,50 @@
+{
+  "synthesis_parameters": {
+    "cs_br_concentration": {
+      "min": 0.1,
+      "max": 3.0
+    },
+    "pb_br2_concentration": {
+      "min": 0.1,
+      "max": 2.0
+    },
+    "temperature": {
+      "min": 80.0,
+      "max": 250.0
+    },
+    "oa_concentration": {
+      "min": 0.0,
+      "max": 1.5
+    },
+    "oam_concentration": {
+      "min": 0.0,
+      "max": 1.5
+    },
+    "reaction_time": {
+      "min": 1.0,
+      "max": 60.0
+    }
+  },
+  "solvents": {
+    "types": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "weights": [
+      0.3,
+      0.25,
+      0.15,
+      0.2,
+      0.1
+    ]
+  },
+  "quality_control": {
+    "min_plqy": 0.1,
+    "max_plqy": 1.0,
+    "min_bandgap": 1.5,
+    "max_bandgap": 3.5
+  }
+}

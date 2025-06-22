@@ -1,0 +1,87 @@
+{
+  "data_generation": {
+    "sample_sizes": [
+      1000,
+      5000
+    ],
+    "original": {
+      "times": [],
+      "memory": [],
+      "samples_per_sec": []
+    },
+    "optimized": {
+      "times": [
+        0.007703304290771484,
+        0.01295614242553711
+      ],
+      "memory": [
+        2.375,
+        2.0
+      ],
+      "samples_per_sec": [
+        129814.42277932528,
+        385917.3383386699
+      ]
+    }
+  },
+  "training_pipeline": {
+    "test_cases": [
+      {
+        "base_samples": 500,
+        "opt_iterations": 10,
+        "opt_samples": 250
+      }
+    ],
+    "original": {
+      "times": [],
+      "memory": [],
+      "best_scores": []
+    },
+    "optimized": {
+      "times": [
+        0.03076910972595215
+      ],
+      "memory": [
+        0.125
+      ],
+      "best_scores": [
+        0.9885717079043388
+      ]
+    }
+  },
+  "memory_efficiency": {
+    "peak_memory": {
+      "optimized_1000": 0.0,
+      "optimized_5000": 0.0,
+      "optimized_10000": 0.25
+    },
+    "memory_growth": {
+      "optimized_1000": 0.0,
+      "optimized_5000": 0.0,
+      "optimized_10000": 0.25
+    },
+    "gc_pressure": {}
+  },
+  "vectorization_impact": {
+    "physics_simulation": {
+      "batch_100": {
+        "time": 0.00036025047302246094,
+        "samples_per_sec": 277584.6459298478
+      },
+      "batch_500": {
+        "time": 0.0003180503845214844,
+        "samples_per_sec": 1572077.9610194901
+      },
+      "batch_1000": {
+        "time": 0.0003342628479003906,
+        "samples_per_sec": 2991657.631954351
+      },
+      "batch_2000": {
+        "time": 0.00037407875061035156,
+        "samples_per_sec": 5346467.8138942
+      }
+    },
+    "property_calculation": {},
+    "parameter_generation": {}
+  }
+}

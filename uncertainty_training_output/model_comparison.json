@@ -1,0 +1,20 @@
+{
+  "bayesian": {
+    "uncertainty_accuracy_correlation": 0.015244432478824902,
+    "mean_uncertainty": 0.220392107963562,
+    "uncertainty_std": 0.029504114761948586,
+    "calibration_quality": 3
+  },
+  "mcdropout": {
+    "uncertainty_accuracy_correlation": 0.07637400296985582,
+    "mean_uncertainty": 0.09045545756816864,
+    "uncertainty_std": 0.037085287272930145,
+    "calibration_quality": 3
+  },
+  "ensemble": {
+    "uncertainty_accuracy_correlation": -0.0038338337977522345,
+    "mean_uncertainty": 0.046224284917116165,
+    "uncertainty_std": 0.016838248819112778,
+    "calibration_quality": 2
+  }
+}
