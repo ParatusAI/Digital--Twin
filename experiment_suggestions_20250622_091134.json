@@ -1,0 +1,695 @@
+[
+  {
+    "suggestion_id": "AL_20250622_091133_00",
+    "synthesis_conditions": {
+      "cs_br_concentration": 0.7043805716920466,
+      "pb_br2_concentration": 0.8923394776491358,
+      "temperature": 80.27992485719517,
+      "oa_concentration": 0.392581843581023,
+      "oam_concentration": 0.31894467107266566,
+      "reaction_time": 37.83158574326116,
+      "solvent_type": 3
+    },
+    "acquisition_score": 0.9914294206264753,
+    "acquisition_type": "Max Entropy (Uncertainty)",
+    "predicted_outcome": {
+      "predicted_phase": "Mixed",
+      "phase_probabilities": [
+        0.3077576458454132,
+        0.08783480525016785,
+        0.04408033564686775,
+        0.3827420175075531,
+        0.17758521437644958
+      ],
+      "phase_uncertainties": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.3827420175075531,
+      "properties": {
+        "bandgap": {
+          "mean": 1.9175173044204712,
+          "std": 0.0,
+          "confidence_interval": [
+            1.9175173044204712,
+            1.9175173044204712
+          ]
+        },
+        "plqy": {
+          "mean": 2.1145002841949463,
+          "std": 0.0,
+          "confidence_interval": [
+            2.1145002841949463,
+            2.1145002841949463
+          ]
+        },
+        "particle_size": {
+          "mean": 0.401799738407135,
+          "std": 0.0,
+          "confidence_interval": [
+            0.401799738407135,
+            0.401799738407135
+          ]
+        },
+        "emission_peak": {
+          "mean": 15.843367576599121,
+          "std": 0.0,
+          "confidence_interval": [
+            15.843367576599121,
+            15.843367576599121
+          ]
+        }
+      },
+      "has_uncertainty": false
+    },
+    "uncertainty_metrics": {
+      "phase_uncertainty": 0.0,
+      "property_uncertainty": 0.0,
+      "total_uncertainty": 0.0
+    },
+    "rationale": "Selected for high prediction uncertainty; Predicted outcome: Mixed (confidence: 0.383); Key conditions: 80\u00b0C, Cs:Pb=0.79",
+    "priority": "medium",
+    "estimated_information_gain": 0.19,
+    "suggested_by": "ActiveLearning_uncertainty",
+    "timestamp": "2025-06-22T09:11:33.340888"
+  },
+  {
+    "suggestion_id": "AL_20250622_091133_01",
+    "synthesis_conditions": {
+      "cs_br_concentration": 0.6824371206440518,
+      "pb_br2_concentration": 1.048958531241764,
+      "temperature": 80.60055296228195,
+      "oa_concentration": 0.4973618358460281,
+      "oam_concentration": 0.08538030447858902,
+      "reaction_time": 25.838658924617782,
+      "solvent_type": 1
+    },
+    "acquisition_score": 0.5535760083482019,
+    "acquisition_type": "Max Entropy (Uncertainty)",
+    "predicted_outcome": {
+      "predicted_phase": "Mixed",
+      "phase_probabilities": [
+        0.3567417860031128,
+        0.06566410511732101,
+        0.0388421006500721,
+        0.36567923426628113,
+        0.17307277023792267
+      ],
+      "phase_uncertainties": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.36567923426628113,
+      "properties": {
+        "bandgap": {
+          "mean": 1.8479737043380737,
+          "std": 0.0,
+          "confidence_interval": [
+            1.8479737043380737,
+            1.8479737043380737
+          ]
+        },
+        "plqy": {
+          "mean": 2.133812189102173,
+          "std": 0.0,
+          "confidence_interval": [
+            2.133812189102173,
+            2.133812189102173
+          ]
+        },
+        "particle_size": {
+          "mean": 0.40847527980804443,
+          "std": 0.0,
+          "confidence_interval": [
+            0.40847527980804443,
+            0.40847527980804443
+          ]
+        },
+        "emission_peak": {
+          "mean": 16.2778263092041,
+          "std": 0.0,
+          "confidence_interval": [
+            16.2778263092041,
+            16.2778263092041
+          ]
+        }
+      },
+      "has_uncertainty": false
+    },
+    "uncertainty_metrics": {
+      "phase_uncertainty": 0.0,
+      "property_uncertainty": 0.0,
+      "total_uncertainty": 0.0
+    },
+    "rationale": "Selected for high prediction uncertainty; Predicted outcome: Mixed (confidence: 0.366); Key conditions: 81\u00b0C, Cs:Pb=0.65",
+    "priority": "low",
+    "estimated_information_gain": 0.19,
+    "suggested_by": "ActiveLearning_uncertainty",
+    "timestamp": "2025-06-22T09:11:33.342544"
+  },
+  {
+    "suggestion_id": "AL_20250622_091133_02",
+    "synthesis_conditions": {
+      "cs_br_concentration": 1.4017745640410364,
+      "pb_br2_concentration": 0.8297653037731725,
+      "temperature": 81.31412601602837,
+      "oa_concentration": 0.38940238052118736,
+      "oam_concentration": 0.14011205800078505,
+      "reaction_time": 15.233374543030507,
+      "solvent_type": 2
+    },
+    "acquisition_score": 0.4445525961666269,
+    "acquisition_type": "Max Entropy (Uncertainty)",
+    "predicted_outcome": {
+      "predicted_phase": "Mixed",
+      "phase_probabilities": [
+        0.26036369800567627,
+        0.11896465718746185,
+        0.0307138841599226,
+        0.4326191842556,
+        0.15733855962753296
+      ],
+      "phase_uncertainties": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.4326191842556,
+      "properties": {
+        "bandgap": {
+          "mean": 2.1830673217773438,
+          "std": 0.0,
+          "confidence_interval": [
+            2.1830673217773438,
+            2.1830673217773438
+          ]
+        },
+        "plqy": {
+          "mean": 2.457751989364624,
+          "std": 0.0,
+          "confidence_interval": [
+            2.457751989364624,
+            2.457751989364624
+          ]
+        },
+        "particle_size": {
+          "mean": 0.43408870697021484,
+          "std": 0.0,
+          "confidence_interval": [
+            0.43408870697021484,
+            0.43408870697021484
+          ]
+        },
+        "emission_peak": {
+          "mean": 17.253326416015625,
+          "std": 0.0,
+          "confidence_interval": [
+            17.253326416015625,
+            17.253326416015625
+          ]
+        }
+      },
+      "has_uncertainty": false
+    },
+    "uncertainty_metrics": {
+      "phase_uncertainty": 0.0,
+      "property_uncertainty": 0.0,
+      "total_uncertainty": 0.0
+    },
+    "rationale": "Selected for high prediction uncertainty; Predicted outcome: Mixed (confidence: 0.433); Key conditions: 81\u00b0C, Cs:Pb=1.69",
+    "priority": "low",
+    "estimated_information_gain": 0.19,
+    "suggested_by": "ActiveLearning_uncertainty",
+    "timestamp": "2025-06-22T09:11:33.343451"
+  },
+  {
+    "suggestion_id": "AL_20250622_091133_00",
+    "synthesis_conditions": {
+      "cs_br_concentration": 1.0444841010318449,
+      "pb_br2_concentration": 0.7983702777434994,
+      "temperature": 211.9066264343626,
+      "oa_concentration": 0.10206059802150402,
+      "oam_concentration": 0.18301299225722772,
+      "reaction_time": 66.57422085853867,
+      "solvent_type": 2
+    },
+    "acquisition_score": 0.35680244013243756,
+    "acquisition_type": "Diversity Sampling",
+    "predicted_outcome": {
+      "predicted_phase": "CsPbBr3_3D",
+      "phase_probabilities": [
+        0.46252650022506714,
+        0.022454747930169106,
+        0.023087814450263977,
+        0.3549592196941376,
+        0.13697175681591034
+      ],
+      "phase_uncertainties": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.46252650022506714,
+      "properties": {
+        "bandgap": {
+          "mean": 2.152003526687622,
+          "std": 0.0,
+          "confidence_interval": [
+            2.152003526687622,
+            2.152003526687622
+          ]
+        },
+        "plqy": {
+          "mean": 2.752470016479492,
+          "std": 0.0,
+          "confidence_interval": [
+            2.752470016479492,
+            2.752470016479492
+          ]
+        },
+        "particle_size": {
+          "mean": 0.5195165276527405,
+          "std": 0.0,
+          "confidence_interval": [
+            0.5195165276527405,
+            0.5195165276527405
+          ]
+        },
+        "emission_peak": {
+          "mean": 21.527305603027344,
+          "std": 0.0,
+          "confidence_interval": [
+            21.527305603027344,
+            21.527305603027344
+          ]
+        }
+      },
+      "has_uncertainty": false
+    },
+    "uncertainty_metrics": {
+      "phase_uncertainty": 0.0,
+      "property_uncertainty": 0.0,
+      "total_uncertainty": 0.0
+    },
+    "rationale": "Selected for parameter space exploration; Predicted outcome: CsPbBr3_3D (confidence: 0.463); Key conditions: 212\u00b0C, Cs:Pb=1.31",
+    "priority": "low",
+    "estimated_information_gain": 0.24250530004501342,
+    "suggested_by": "ActiveLearning_diversity",
+    "timestamp": "2025-06-22T09:11:33.850668"
+  },
+  {
+    "suggestion_id": "AL_20250622_091133_01",
+    "synthesis_conditions": {
+      "cs_br_concentration": 1.6459171614804546,
+      "pb_br2_concentration": 1.710310036062889,
+      "temperature": 128.79415505510906,
+      "oa_concentration": 0.9388376500549871,
+      "oam_concentration": 0.4094149121026316,
+      "reaction_time": 94.7060310276555,
+      "solvent_type": 3
+    },
+    "acquisition_score": 0.6170652214831469,
+    "acquisition_type": "Diversity Sampling",
+    "predicted_outcome": {
+      "predicted_phase": "CsPbBr3_3D",
+      "phase_probabilities": [
+        0.40368181467056274,
+        0.05731042101979256,
+        0.040639303624629974,
+        0.33232301473617554,
+        0.1660454273223877
+      ],
+      "phase_uncertainties": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.40368181467056274,
+      "properties": {
+        "bandgap": {
+          "mean": 1.5864160060882568,
+          "std": 0.0,
+          "confidence_interval": [
+            1.5864160060882568,
+            1.5864160060882568
+          ]
+        },
+        "plqy": {
+          "mean": 1.9723037481307983,
+          "std": 0.0,
+          "confidence_interval": [
+            1.9723037481307983,
+            1.9723037481307983
+          ]
+        },
+        "particle_size": {
+          "mean": 0.41374731063842773,
+          "std": 0.0,
+          "confidence_interval": [
+            0.41374731063842773,
+            0.41374731063842773
+          ]
+        },
+        "emission_peak": {
+          "mean": 15.131780624389648,
+          "std": 0.0,
+          "confidence_interval": [
+            15.131780624389648,
+            15.131780624389648
+          ]
+        }
+      },
+      "has_uncertainty": false
+    },
+    "uncertainty_metrics": {
+      "phase_uncertainty": 0.0,
+      "property_uncertainty": 0.0,
+      "total_uncertainty": 0.0
+    },
+    "rationale": "Selected for parameter space exploration; Predicted outcome: CsPbBr3_3D (confidence: 0.404); Key conditions: 129\u00b0C, Cs:Pb=0.96",
+    "priority": "medium",
+    "estimated_information_gain": 0.23073636293411254,
+    "suggested_by": "ActiveLearning_diversity",
+    "timestamp": "2025-06-22T09:11:33.851998"
+  },
+  {
+    "suggestion_id": "AL_20250622_091133_02",
+    "synthesis_conditions": {
+      "cs_br_concentration": 1.4504015425615875,
+      "pb_br2_concentration": 1.5402577886871536,
+      "temperature": 126.13674511485249,
+      "oa_concentration": 0.9219229997689365,
+      "oam_concentration": 0.30289003529395564,
+      "reaction_time": 41.01234749608786,
+      "solvent_type": 2
+    },
+    "acquisition_score": 0.9474263799577247,
+    "acquisition_type": "Diversity Sampling",
+    "predicted_outcome": {
+      "predicted_phase": "CsPbBr3_3D",
+      "phase_probabilities": [
+        0.3989904820919037,
+        0.050175100564956665,
+        0.03242960944771767,
+        0.35033363103866577,
+        0.16807115077972412
+      ],
+      "phase_uncertainties": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.3989904820919037,
+      "properties": {
+        "bandgap": {
+          "mean": 1.8285046815872192,
+          "std": 0.0,
+          "confidence_interval": [
+            1.8285046815872192,
+            1.8285046815872192
+          ]
+        },
+        "plqy": {
+          "mean": 2.1893439292907715,
+          "std": 0.0,
+          "confidence_interval": [
+            2.1893439292907715,
+            2.1893439292907715
+          ]
+        },
+        "particle_size": {
+          "mean": 0.42192542552948,
+          "std": 0.0,
+          "confidence_interval": [
+            0.42192542552948,
+            0.42192542552948
+          ]
+        },
+        "emission_peak": {
+          "mean": 16.83686065673828,
+          "std": 0.0,
+          "confidence_interval": [
+            16.83686065673828,
+            16.83686065673828
+          ]
+        }
+      },
+      "has_uncertainty": false
+    },
+    "uncertainty_metrics": {
+      "phase_uncertainty": 0.0,
+      "property_uncertainty": 0.0,
+      "total_uncertainty": 0.0
+    },
+    "rationale": "Selected for parameter space exploration; Predicted outcome: CsPbBr3_3D (confidence: 0.399); Key conditions: 126\u00b0C, Cs:Pb=0.94",
+    "priority": "medium",
+    "estimated_information_gain": 0.22979809641838073,
+    "suggested_by": "ActiveLearning_diversity",
+    "timestamp": "2025-06-22T09:11:33.852911"
+  },
+  {
+    "suggestion_id": "AL_20250622_091134_00",
+    "synthesis_conditions": {
+      "cs_br_concentration": 1.7876813618513125,
+      "pb_br2_concentration": 0.6918217096287312,
+      "temperature": 82.9923526111391,
+      "oa_concentration": 0.38976037984385925,
+      "oam_concentration": 0.05359851260127782,
+      "reaction_time": 17.715897624445294,
+      "solvent_type": 0
+    },
+    "acquisition_score": 0.5007235773700524,
+    "acquisition_type": "Mixed Strategy",
+    "predicted_outcome": {
+      "predicted_phase": "Mixed",
+      "phase_probabilities": [
+        0.1676410287618637,
+        0.26742735505104065,
+        0.040594473481178284,
+        0.38940516114234924,
+        0.1349319964647293
+      ],
+      "phase_uncertainties": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.38940516114234924,
+      "properties": {
+        "bandgap": {
+          "mean": 1.727892279624939,
+          "std": 0.0,
+          "confidence_interval": [
+            1.727892279624939,
+            1.727892279624939
+          ]
+        },
+        "plqy": {
+          "mean": 2.18951678276062,
+          "std": 0.0,
+          "confidence_interval": [
+            2.18951678276062,
+            2.18951678276062
+          ]
+        },
+        "particle_size": {
+          "mean": 0.4200188219547272,
+          "std": 0.0,
+          "confidence_interval": [
+            0.4200188219547272,
+            0.4200188219547272
+          ]
+        },
+        "emission_peak": {
+          "mean": 12.584851264953613,
+          "std": 0.0,
+          "confidence_interval": [
+            12.584851264953613,
+            12.584851264953613
+          ]
+        }
+      },
+      "has_uncertainty": false
+    },
+    "uncertainty_metrics": {
+      "phase_uncertainty": 0.0,
+      "property_uncertainty": 0.0,
+      "total_uncertainty": 0.0
+    },
+    "rationale": "Balanced uncertainty and optimization strategy; Predicted outcome: Mixed (confidence: 0.389); Key conditions: 83\u00b0C, Cs:Pb=2.58",
+    "priority": "low",
+    "estimated_information_gain": 0.19,
+    "suggested_by": "ActiveLearning_mixed",
+    "timestamp": "2025-06-22T09:11:34.066095"
+  },
+  {
+    "suggestion_id": "AL_20250622_091134_01",
+    "synthesis_conditions": {
+      "cs_br_concentration": 0.8613463606721661,
+      "pb_br2_concentration": 1.3978346524811114,
+      "temperature": 129.9280359828818,
+      "oa_concentration": 0.1624620057460269,
+      "oam_concentration": 0.05266975525252967,
+      "reaction_time": 72.49416571440256,
+      "solvent_type": 4
+    },
+    "acquisition_score": 0.9707367158178335,
+    "acquisition_type": "Mixed Strategy",
+    "predicted_outcome": {
+      "predicted_phase": "CsPbBr3_3D",
+      "phase_probabilities": [
+        0.43736663460731506,
+        0.032431021332740784,
+        0.038001298904418945,
+        0.3375566601753235,
+        0.15464439988136292
+      ],
+      "phase_uncertainties": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.43736663460731506,
+      "properties": {
+        "bandgap": {
+          "mean": 1.7204840183258057,
+          "std": 0.0,
+          "confidence_interval": [
+            1.7204840183258057,
+            1.7204840183258057
+          ]
+        },
+        "plqy": {
+          "mean": 2.183400869369507,
+          "std": 0.0,
+          "confidence_interval": [
+            2.183400869369507,
+            2.183400869369507
+          ]
+        },
+        "particle_size": {
+          "mean": 0.4647439420223236,
+          "std": 0.0,
+          "confidence_interval": [
+            0.4647439420223236,
+            0.4647439420223236
+          ]
+        },
+        "emission_peak": {
+          "mean": 17.47124481201172,
+          "std": 0.0,
+          "confidence_interval": [
+            17.47124481201172,
+            17.47124481201172
+          ]
+        }
+      },
+      "has_uncertainty": false
+    },
+    "uncertainty_metrics": {
+      "phase_uncertainty": 0.0,
+      "property_uncertainty": 0.0,
+      "total_uncertainty": 0.0
+    },
+    "rationale": "Balanced uncertainty and optimization strategy; Predicted outcome: CsPbBr3_3D (confidence: 0.437); Key conditions: 130\u00b0C, Cs:Pb=0.62",
+    "priority": "medium",
+    "estimated_information_gain": 0.237473326921463,
+    "suggested_by": "ActiveLearning_mixed",
+    "timestamp": "2025-06-22T09:11:34.066812"
+  },
+  {
+    "suggestion_id": "AL_20250622_091134_02",
+    "synthesis_conditions": {
+      "cs_br_concentration": 1.8957217576008965,
+      "pb_br2_concentration": 1.359212619406578,
+      "temperature": 169.5055751961453,
+      "oa_concentration": 0.3754225555109716,
+      "oam_concentration": 0.4989980399331093,
+      "reaction_time": 67.3308899350551,
+      "solvent_type": 3
+    },
+    "acquisition_score": 0.2014012925922133,
+    "acquisition_type": "Mixed Strategy",
+    "predicted_outcome": {
+      "predicted_phase": "CsPbBr3_3D",
+      "phase_probabilities": [
+        0.37796837091445923,
+        0.07194945216178894,
+        0.05883965641260147,
+        0.31938865780830383,
+        0.17185382544994354
+      ],
+      "phase_uncertainties": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.37796837091445923,
+      "properties": {
+        "bandgap": {
+          "mean": 1.3339554071426392,
+          "std": 0.0,
+          "confidence_interval": [
+            1.3339554071426392,
+            1.3339554071426392
+          ]
+        },
+        "plqy": {
+          "mean": 1.639078974723816,
+          "std": 0.0,
+          "confidence_interval": [
+            1.639078974723816,
+            1.639078974723816
+          ]
+        },
+        "particle_size": {
+          "mean": 0.3770281970500946,
+          "std": 0.0,
+          "confidence_interval": [
+            0.3770281970500946,
+            0.3770281970500946
+          ]
+        },
+        "emission_peak": {
+          "mean": 12.934943199157715,
+          "std": 0.0,
+          "confidence_interval": [
+            12.934943199157715,
+            12.934943199157715
+          ]
+        }
+      },
+      "has_uncertainty": false
+    },
+    "uncertainty_metrics": {
+      "phase_uncertainty": 0.0,
+      "property_uncertainty": 0.0,
+      "total_uncertainty": 0.0
+    },
+    "rationale": "Balanced uncertainty and optimization strategy; Predicted outcome: CsPbBr3_3D (confidence: 0.378); Key conditions: 170\u00b0C, Cs:Pb=1.39",
+    "priority": "low",
+    "estimated_information_gain": 0.22559367418289183,
+    "suggested_by": "ActiveLearning_mixed",
+    "timestamp": "2025-06-22T09:11:34.067426"
+  }
+]

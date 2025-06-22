@@ -1,0 +1,18 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8503
+  Network URL: http://172.20.82.77:8503
+  External URL: http://124.246.94.69:8503
+
+2025-06-22 15:11:52,006 - INFO - ✅ Loaded bayesian uncertainty model
+2025-06-22 15:11:52,007 - INFO - Loading model from best_model.pth
+2025-06-22 15:11:52,012 - INFO - ✅ Model loaded successfully
+2025-06-22 15:11:52,013 - INFO - ✅ Model loaded successfully for validation
+2025-06-22 15:11:52,014 - INFO - Loading model from best_model.pth
+2025-06-22 15:11:52,022 - INFO - ✅ Model loaded successfully
+2025-06-22 15:11:52,023 - INFO - ✅ Model loaded successfully for validation
+2025-06-22 15:11:52,023 - INFO - ✅ System components initialized

@@ -1,0 +1,179 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>CsPbBr3 Digital Twin - Diagnostic Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                h1, h2, h3 { color: #2c3e50; }
+                .summary { background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0; }
+                .metric { display: inline-block; margin: 10px; padding: 15px; 
+                         background-color: #e9ecef; border-radius: 5px; min-width: 150px; }
+                .metric-value { font-size: 24px; font-weight: bold; color: #2c3e50; }
+                .metric-label { font-size: 14px; color: #6c757d; }
+                .status-critical { background-color: #f8d7da; color: #721c24; }
+                .status-warning { background-color: #fff3cd; color: #856404; }
+                .status-good { background-color: #d4edda; color: #155724; }
+                table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+                th { background-color: #f2f2f2; font-weight: bold; }
+                .error { background-color: #f8d7da; }
+                .warning { background-color: #fff3cd; }
+                .success { background-color: #d4edda; }
+                .code { background-color: #f8f9fa; padding: 10px; border-radius: 3px; font-family: monospace; }
+            </style>
+        </head>
+        <body>
+            <h1>🔍 CsPbBr3 Digital Twin - Comprehensive Diagnostic Report</h1>
+            <p><strong>Generated:</strong> 2025-06-22 20:05:51</p>
+            
+            <div class="summary status-warning">
+                <h2>📊 Overall Status: 🟡 MINOR ISSUES</h2>
+                <div class="metric">
+                    <div class="metric-value">0</div>
+                    <div class="metric-label">Syntax Errors</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">0</div>
+                    <div class="metric-label">Import Errors</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">0</div>
+                    <div class="metric-label">File Issues</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">1</div>
+                    <div class="metric-label">Recommendations</div>
+                </div>
+            </div>
+        
+            <h2>💻 System Information</h2>
+            <table>
+        <tr><td>Python Version</td><td>3.8.10 (default, Mar 18 2025, 20:04:55) 
+[GCC 9.4.0]</td></tr><tr><td>Platform</td><td>Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.29</td></tr><tr><td>Memory Total Gb</td><td>7.6144561767578125</td></tr><tr><td>Memory Available Gb</td><td>5.610355377197266</td></tr><tr><td>Disk Available Gb</td><td>905.8335952758789</td></tr><tr><td>Disk Total Gb</td><td>1006.853931427002</td></tr><tr><td>Cpu Count</td><td>12</td></tr><tr><td>Python Executable</td><td>/home/aroyston/my-claude-project/.venv/bin/python</td></tr><tr><td>Python Path</td><td>['/home/aroyston/my-claude-project/digital_twin/cspbbr3_digital_twin', '/home/aroyston/my-claude-project/digital_twin/cspbbr3_digital_twin', '/home/aroyston/my-claude-project/digital_twin/cspbbr3_digital_twin', '.', '.', '.', '/home/aroyston/my-claude-project/digital_twin/cspbbr3_digital_twin', '/usr/lib/python38.zip', '/usr/lib/python3.8', '/usr/lib/python3.8/lib-dynload', '/home/aroyston/my-claude-project/.venv/lib/python3.8/site-packages']</td></tr><tr><td>In Virtual Env</td><td>True</td></tr><tr><td>Site Packages</td><td>['/home/aroyston/my-claude-project/.venv/lib/python3.8/site-packages', '/home/aroyston/my-claude-project/.venv/local/lib/python3.8/dist-packages', '/home/aroyston/my-claude-project/.venv/lib/python3/dist-packages', '/home/aroyston/my-claude-project/.venv/lib/python3.8/dist-packages']</td></tr><tr><td>Python Files Count</td><td>58</td></tr></table>
+            <h2>📦 Dependencies</h2>
+            <table>
+                <tr><th>Package</th><th>Status</th><th>Version</th><th>Required</th></tr>
+        
+                <tr class="success">
+                    <td>numpy</td>
+                    <td>Available</td>
+                    <td>1.24.4</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="success">
+                    <td>pandas</td>
+                    <td>Available</td>
+                    <td>2.0.3</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="success">
+                    <td>matplotlib</td>
+                    <td>Available</td>
+                    <td>3.7.5</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="success">
+                    <td>seaborn</td>
+                    <td>Available</td>
+                    <td>0.13.2</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="success">
+                    <td>plotly</td>
+                    <td>Available</td>
+                    <td>6.1.2</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="error">
+                    <td>scikit-learn</td>
+                    <td>Missing</td>
+                    <td>No module named 'scikit-learn'</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="success">
+                    <td>scipy</td>
+                    <td>Available</td>
+                    <td>1.10.1</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="success">
+                    <td>psutil</td>
+                    <td>Available</td>
+                    <td>7.0.0</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="error">
+                    <td>jupyter</td>
+                    <td>Missing</td>
+                    <td>No module named 'jupyter'</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="error">
+                    <td>ipywidgets</td>
+                    <td>Missing</td>
+                    <td>No module named 'ipywidgets'</td>
+                    <td>Yes</td>
+                </tr>
+            
+                <tr class="error">
+                    <td>cupy</td>
+                    <td>Missing</td>
+                    <td>No module named 'cupy'</td>
+                    <td>No</td>
+                </tr>
+            
+                <tr class="success">
+                    <td>pyopencl</td>
+                    <td>Available</td>
+                    <td>2025.1</td>
+                    <td>No</td>
+                </tr>
+            
+                <tr class="success">
+                    <td>numba</td>
+                    <td>Available</td>
+                    <td>0.58.1</td>
+                    <td>No</td>
+                </tr>
+            
+                <tr class="success">
+                    <td>torch</td>
+                    <td>Available</td>
+                    <td>1.13.1+cpu</td>
+                    <td>No</td>
+                </tr>
+            
+                <tr class="error">
+                    <td>git</td>
+                    <td>Missing</td>
+                    <td>No module named 'git'</td>
+                    <td>No</td>
+                </tr>
+            </table>
+                <h2>💡 Recommendations</h2>
+                <table>
+                    <tr><th>Priority</th><th>Category</th><th>Issue</th><th>Solution</th></tr>
+            
+                    <tr class="error">
+                        <td>HIGH</td>
+                        <td>Dependencies</td>
+                        <td>Missing required packages: scikit-learn, jupyter, ipywidgets</td>
+                        <td><div class="code">Run: pip install scikit-learn jupyter ipywidgets</div></td>
+                    </tr>
+                </table>
+            <footer style="margin-top: 40px; text-align: center; color: #6c757d;">
+                <p>Generated by CsPbBr3 Digital Twin Comprehensive Diagnostics</p>
+            </footer>
+        </body>
+        </html>
+        

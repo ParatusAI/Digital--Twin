@@ -1,0 +1,138 @@
+{
+  "syntax_errors": [],
+  "import_errors": [],
+  "dependency_issues": [
+    {
+      "package": "numpy",
+      "status": "available",
+      "version": "1.24.4",
+      "required": true
+    },
+    {
+      "package": "pandas",
+      "status": "available",
+      "version": "2.0.3",
+      "required": true
+    },
+    {
+      "package": "matplotlib",
+      "status": "available",
+      "version": "3.7.5",
+      "required": true
+    },
+    {
+      "package": "seaborn",
+      "status": "available",
+      "version": "0.13.2",
+      "required": true
+    },
+    {
+      "package": "plotly",
+      "status": "available",
+      "version": "6.1.2",
+      "required": true
+    },
+    {
+      "package": "scikit-learn",
+      "status": "missing",
+      "error": "No module named 'scikit-learn'",
+      "required": true
+    },
+    {
+      "package": "scipy",
+      "status": "available",
+      "version": "1.10.1",
+      "required": true
+    },
+    {
+      "package": "psutil",
+      "status": "available",
+      "version": "7.0.0",
+      "required": true
+    },
+    {
+      "package": "jupyter",
+      "status": "missing",
+      "error": "No module named 'jupyter'",
+      "required": true
+    },
+    {
+      "package": "ipywidgets",
+      "status": "missing",
+      "error": "No module named 'ipywidgets'",
+      "required": true
+    },
+    {
+      "package": "cupy",
+      "status": "missing",
+      "error": "No module named 'cupy'",
+      "required": false
+    },
+    {
+      "package": "pyopencl",
+      "status": "available",
+      "version": "2025.1",
+      "required": false
+    },
+    {
+      "package": "numba",
+      "status": "available",
+      "version": "0.58.1",
+      "required": false
+    },
+    {
+      "package": "torch",
+      "status": "available",
+      "version": "1.13.1+cpu",
+      "required": false
+    },
+    {
+      "package": "git",
+      "status": "missing",
+      "error": "No module named 'git'",
+      "required": false
+    }
+  ],
+  "file_issues": [],
+  "system_info": {
+    "python_version": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.29",
+    "memory_total_gb": 7.6144561767578125,
+    "memory_available_gb": 5.610355377197266,
+    "disk_available_gb": 905.8335952758789,
+    "disk_total_gb": 1006.853931427002,
+    "cpu_count": 12,
+    "python_executable": "/home/aroyston/my-claude-project/.venv/bin/python",
+    "python_path": [
+      "/home/aroyston/my-claude-project/digital_twin/cspbbr3_digital_twin",
+      "/home/aroyston/my-claude-project/digital_twin/cspbbr3_digital_twin",
+      "/home/aroyston/my-claude-project/digital_twin/cspbbr3_digital_twin",
+      ".",
+      ".",
+      ".",
+      "/home/aroyston/my-claude-project/digital_twin/cspbbr3_digital_twin",
+      "/usr/lib/python38.zip",
+      "/usr/lib/python3.8",
+      "/usr/lib/python3.8/lib-dynload",
+      "/home/aroyston/my-claude-project/.venv/lib/python3.8/site-packages"
+    ],
+    "in_virtual_env": true,
+    "site_packages": [
+      "/home/aroyston/my-claude-project/.venv/lib/python3.8/site-packages",
+      "/home/aroyston/my-claude-project/.venv/local/lib/python3.8/dist-packages",
+      "/home/aroyston/my-claude-project/.venv/lib/python3/dist-packages",
+      "/home/aroyston/my-claude-project/.venv/lib/python3.8/dist-packages"
+    ],
+    "python_files_count": 58
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "category": "Dependencies",
+      "issue": "Missing required packages: scikit-learn, jupyter, ipywidgets",
+      "solution": "Run: pip install scikit-learn jupyter ipywidgets"
+    }
+  ],
+  "runtime_errors": [],
+  "config_issues": []
+}

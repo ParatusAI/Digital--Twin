@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  digital-twin:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./experimental_data:/app/experimental_data
+      - ./uncertainty_training_output:/app/uncertainty_training_output
+    environment:
+      - FLASK_ENV=production
